@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>SVG Filter Effects</title>
+</head>
+<body>
+    <svg>
+        <filter id="wavy">
+            <feTurbulence type="turbulence" basefrequency="0.005" numOctaves="5">
+            </feTurbulence>
+            <feDisplacementMap in="SourceGraphic" scale="50">
+            </feDisplacementMap>
+        </filter>
+    </svg>
+    <h2>Code With Vic!</h2>
+</body>
+</html>

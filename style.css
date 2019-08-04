@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+    filter: url(#wavy);
+}
+
+svg{
+    width: 0;
+    height: 0;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    color: aqua;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 8em;
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
